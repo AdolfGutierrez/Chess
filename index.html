@@ -1,232 +1,208 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="icon" href="https://wallpapercave.com/wp/wp4845353.png
-    ">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
-    <title>KingDama</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(0, 0, 0);">
-        <div class="container">
-          <a class="navbar-brand" href="#carouselExampleControls">
-              <img class="img-logo" src="assets/img/logo.png" alt=""></a>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#imagenes">Imagenes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#video">Video</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#adoptar">Adopta</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
-
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-
-      <div class="pantalla" >
-        <div class="cuadro">
-          <h1>Cats4U</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa fugiat sapiente perspiciatis odio corrupti cupiditate. Incidunt, amet et fugit, doloribus odio magni, quos eaque sequi iusto molestias consectetur ut officiis.</p>
-        </div>
-
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--CSS propio-->
+  <link rel="stylesheet" href="assets/css/chess.css">
+  <link rel="icon" href="https://th.bing.com/th/id/OIP.IyhIDIT09YM3GlpTeidGyQHaHa?pid=ImgDet&rs=1 ">
+  <title>KingDama</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      
+      <img src="https://schackskolan.nu/wp-content/uploads/2020/11/logo-lichess-1024x1024.png" alt="gatitos"> 
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link active" href="#carouselExampleControls">Inicio <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#imagenes">Aprende Ajedrez</a>
+        <a class="nav-link" href="#video">Cursos</a>
+        <a class="nav-link" href="#adopta">Biografias</a>
       </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/1055796/910/569/m2/fpnw/wm1/iik4reig0tgpcq4jpoy02qg6vcnpcplh5dzgmlitbojddtctch8rwfvpv15omyrz-.jpg?1457169493&s=f717b0035d5c111c67be86a879f85f0a" class="d-block w-100 img-carrusel" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://i.pinimg.com/originals/c7/35/4d/c7354de179d91d24a6666ff3207de728.jpg" class="d-block w-100 img-carrusel" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://2.bp.blogspot.com/-I5m3PzoLhtg/W-8kOag50qI/AAAAAAAEfBc/LOSOaScYYYwmwmX_60L6RYjwbfGM_l39gCLcBGAs/s1600/Astronaut-Cat.jpg" class="d-block w-100 img-carrusel" alt="...">
-          </div>
-        </div>
-       <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </button>
+    </div>
+  </nav>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="pantalla">
+      <div class="cuadro">
+        <h1>
+          KingDama
+        </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas sequi excepturi aliquid tempore iusto? Ad ipsum nemo deleniti, quia reiciendis blanditiis, reprehenderit numquam sequi quisquam ipsa natus provident eveniet iste?</p>
       </div>
-
-      <div id="gatito" class = "bg-dark text-center" >
-        <div class="container" >
-          <div class="row" >
-            <div class="col" >
-              <img src=https://bestanimations.com/Animals/Mammals/Cats/cats/cute-kitty-animated-gif-2.gif
-              alt="">
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.guatemala.com/fotos/201706/Ajedresz-885x500.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://static-ms.ideal.es/wp-content/uploads/sites/17/2019/07/campeonato-ajedrez-salobre%C3%B1a-700x445.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://th.bing.com/th/id/R.e0b42170f83ead046306e77809ef2962?rik=E5PEQFqQBlkxxw&pid=ImgRaw&r=0" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+  <div id="mensaje" class="bg-dark text-center breadcrum">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col ">
+          <img class="img-fluid" src="https://rapidchess.in/wp-content/uploads/2017/03/Animated.gif" alt="gatito">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="imagenes" class="mt-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 mt-3 mb-3">
+        <div class="col mb-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://i1.wp.com/thezugzwangblog.com/wp-content/uploads/2019/09/clases-de-ajedrez-para-ni%C3%B1os.jpg?fit=817%2C588&ssl=1">
+            <div class="card-body">
+              <h5 class="card-title">Niños y Pricipiantes</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning text-white">Go somewhere</a>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="imagenes" class="mt-10">
-        <div class="container" >
-          <h2 class="card-title text-center">Imágenes</h2>
+        <div class="col mb-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://4.bp.blogspot.com/-QxIP7GTiopA/V8pKZEufapI/AAAAAAAAPQo/HRnqlQPMlzMPpAOzurZ9D0YM3RLad2GdgCLcB/s1600/depositphotos_12561576_original.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Intermedio</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning text-white">Go somewhere</a>
+            </div>
+          </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-2">
 
-          <div class="col mb-4">
-            <div class="card">
-              <img src="https://cdn.wallpapersafari.com/28/42/jZbtqi.jpeg" class="img-card" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center">CatAsombrado</h5>
-                <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="col mb-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://anabolichealth.com/wp-content/uploads/2017/10/natural-dopamine-agonist-chess-player.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Avanzado</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning text-white">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://th.bing.com/th/id/OIP.TPKdKJxvN0QhySUb6JU39gHaEK?pid=ImgDet&rs=1">
+            <div class="card-body">
+              <h5 class="card-title">Gran Maestro</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta incidunt corrupti eius iste!</p>
+              <a href="#" class="btn btn-warning text-white">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  <div id="video">
+    <div class="container-fluid">
+      <div class="row p-3 d-flex align-items-center bg-dark">
+        <div class="col-sm-12 col-md-7 col-lg-6">
+          <iframe src="https://youtu.be/Kti3oKIZ8Mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-12 col-md-5 col-lg-6 text-white">
+          <h2>Tutorial de ajedrez</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptas et cumque culpa excepturi sed modi saepe optio. Praesentium quo laudantium id. Modi necessitatibus explicabo odio incidunt hic, reiciendis sint maxime, minus velit, debitis officia laborum! Perferendis illum nam, recusandae quia rem, ipsa tenetur veniam vitae quas quam, pariatur illo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="adopta" class="adoptar">
+    <div class="container">
+      <div class="row align-items-center p-2">
+        <div class="col-sm-12 col-md-6 col-lg-4 offset-lg-1 ">
+          <h2>Biografías</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque possimus maxime nisi porro, nihil modi, commodi quibusdam voluptatem voluptates molestiae quae eaque praesentium aliquid tempore nam beatae blanditiis harum.</p>
+          <input class="btn btn-outline-dark bg-ligt mb-3" type="button" value="Saber más">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 offset-lg-1 bb-warning p-4 bg-dark text-white rounded ">
+          <form id="rowAdoptame" action="#carouselExampleControls" method="post">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
               </div>
             </div>
-          </div>
-
-          <div class="col mb-4">
-            <div class="card">
-              <img src="https://th.bing.com/th/id/R.1f7ce2965abd86c441f4773c38a05329?rik=JBe9NkK66t9bcw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f8%2f4%2f48997.jpg&ehk=4GsJic4jnwULJ40I%2bYXpiRKp1Q91Q2RTyeIewCXJUtw%3d&risl=&pid=ImgRaw&r=0" class="img-card " alt="...">
-              <div class="card-body ">
-                <h5 class="card-title text-center">CatBisc</h5>
-                <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
               </div>
             </div>
-          </div>
-
-          <div class="col mb-4">
-            <div class="card">
-              <img src="https://th.bing.com/th/id/R.2c1b8edd2d9c49553a007435a287ce12?rik=3Y0cuoEGkqe49g&pid=ImgRaw&r=0" class="img-card" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center">CatSpant</h5>
-                <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
               </div>
             </div>
-          </div>
-
-          <div class="col mb-4">
-            <div class="card">
-              <img src="https://th.bing.com/th/id/OIP.BwWstaqFNIVOmcyEcBpW9gHaEo?pid=ImgDet&rs=1" class="img-card" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center">CatAnger</h5>
-                <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
+            <button type="submit" class="btn btn-outline-warning">Sign in</button>
+          </form>
         </div>
       </div>
-
-      <div id="video" class="bg-dark" >
-
-        <div class="container" >
-          <div class="row aling-items-center">
-            <div class="col-md aling-selfe-center" >
-              <iframe src="https://www.youtube.com/watch?v=ce0LPDPV5NE
-              " frameborder=""></iframe>
-            </div>
-
-            <div class="col text-white " >
-              <h3>Ver video antes de adoptar</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quis neque, voluptatibus corrupti aperiam deleniti atque error consequatur ullam odit omnis repellat quisquam quaerat rem nihil dolor, autem architecto voluptatum!</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-
-      <div id="adoptar" class="mt-5"  >
-          <div class="container">
-              <div class="row" >
-                  <div class="col-md text-black" >
-                    <h2>Adoptame</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam odio possimus nostrum, officia neque cupiditate provident ipsum. Modi voluptatum dicta vero tempore rerum voluptas eligendi quos nostrum, ex inventore.</p>
-                    <button type="button" class="btn mb-4 btn-dark">Saber más</button>
-                  </div>
-                  <div class="col-md bg-dark text-white p-5">
-                    <form class="text-white" >
-                        <div class="form-row"  >
-                          <div class="form-group col-md-6">
-                            <label for="inputEmail4"  >Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <label for="inputPassword4">Contraseña</label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label for="inputAddress">Dirección</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="calle y numero">
-                        </div>
-                        <div class="form-group">
-                          <label for="inputAddress2">Referencia</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="fachada, puerta, casa o departamento">
-                        </div>
-                        <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <label for="inputCity">Ciudad</label>
-                            <input type="text" class="form-control" id="inputCity">
-                          </div>
-                          <div class="form-group col-md-4">
-                            <label for="inputState">Estado</label>
-                            <select id="inputState" class="form-control">
-                              <option selected>Choose...</option>
-                              <option>...</option>
-                            </select>
-                          </div>
-                          <div class="form-group col-md-2">
-                            <label for="inputZip">C.P</label>
-                            <input type="text" class="form-control" id="inputZip">
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                              Check me out
-                            </label>
-                          </div>
-                        </div>
-                        <button type="submit" class="btn btn-warning">Enviar</button>
-                      </form>
-
-                  </div>
-              </div>
-          </div>
-      </div>
-
-      <footer class="bg-dark text-white text-center mt-5">
-        <p class="m-0 p-4" > Todos los derechos reservados</p>
-
-
-      </footer>
-    
-
-    
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-
-    <!-- scroll -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="assets/js/scrollReveals.js" ></script>
-
-   
-  </body>
+    </div>
+  </div>
+  
+  <footer class="blog-footer bg-dark bb-warning">
+    <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--Scrollreveal-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/JS/scrollReveal.js"></script>
+</body>
 </html>
